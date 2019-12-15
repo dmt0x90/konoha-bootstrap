@@ -1,2 +1,2 @@
 # Konoha-bootstrap
-This repository be about  learning bootstrap with sass. 
+This repository be about  learning bootstrap used sass. 
