@@ -110,22 +110,70 @@
         </div>
       </div>
     </div>
-    <div class="row">
+
+    <div class="row mb-5">
       <div class="col-3">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-        </div>
+        <nav class="navbar navbar-light bg-light" id="verticalnav">
+          <nav class="nav nav-pills flex-column">
+
+            <a class="nav-link" href="#item01">Introdução</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3 my-2" href="#item01-1">Motivação</a>
+              </nav>
+
+            <a class="nav-link" href="#item02">Sobre</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3 my-2" href="#item02-2">Caminho Corrido até aqui</a>
+              </nav>
+
+            <a class="nav-link" href="#item03">Galerias</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3 my-2" href="#item03-3">Anteriores</a>
+              </nav>
+
+            <a class="nav-link" href="#item04">Relatos</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3 my-2" href="#item04-4">Anotações diarias</a>
+              </nav>
+
+            <a class="nav-link" href="#item05">Contato</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3 my-2" href="#item05-5">Redes Sociais</a>
+              </nav>
+
+          </nav>
+        </nav>
       </div>
       <div class="col-9">
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><p class="lead"><h4>Lorem</h4> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra metus et mattis gravida. Sed urna nulla, tincidunt quis erat ut, sollicitudin pellentesque augue. Vivamus congue ullamcorper tincidunt. Praesent aliquam, purus eget porta consectetur, purus purus eleifend augue, id egestas magna magna et est. Pellentesque fermentum eleifend sollicitudin. Quisque malesuada, magna pretium laoreet condimentum, quam nisl pulvinar urna, non auctor magna tortor quis elit. Fusce iaculis tortor magna, a accumsan turpis semper quis.</p></div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><p class="lead"><h4>Lorem</h4> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra metus et mattis gravida. Sed urna nulla, tincidunt quis erat ut, sollicitudin pellentesque augue. Vivamus congue ullamcorper tincidunt. Praesent aliquam, purus eget porta consectetur, purus purus eleifend augue, id egestas magna magna et est. Pellentesque fermentum eleifend sollicitudin. Quisque malesuada, magna pretium laoreet condimentum, quam nisl pulvinar urna, non auctor magna tortor quis elit. Fusce iaculis tortor magna, a accumsan turpis semper quis.</p></div>
-          <p class="lead"><h4>Lorem</h4> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra metus et mattis gravida. Sed urna nulla, tincidunt quis erat ut, sollicitudin pellentesque augue. Vivamus congue ullamcorper tincidunt. Praesent aliquam, purus eget porta consectetur, purus purus eleifend augue, id egestas magna magna et est. Pellentesque fermentum eleifend sollicitudin. Quisque malesuada, magna pretium laoreet condimentum, quam nisl pulvinar urna, non auctor magna tortor quis elit. Fusce iaculis tortor magna, a accumsan turpis semper quis.</p></div>
-          <p class="lead"><h4>Lorem</h4> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra metus et mattis gravida. Sed urna nulla, tincidunt quis erat ut, sollicitudin pellentesque augue. Vivamus congue ullamcorper tincidunt. Praesent aliquam, purus eget porta consectetur, purus purus eleifend augue, id egestas magna magna et est. Pellentesque fermentum eleifend sollicitudin. Quisque malesuada, magna pretium laoreet condimentum, quam nisl pulvinar urna, non auctor magna tortor quis elit. Fusce iaculis tortor magna, a accumsan turpis semper quis.</p></div>
+        <div class="scrollspy" data-spy="scroll" data-target="#verticalnav" data-offset="0">
+
+          <h4 id="item01">ipsum ipsum</h4>
+          <p class="lead">Nulla leo lacus, laoreet nec nisl vel, eleifend eleifend massa. Aenean interdum erat eu lacus semper aliquam. Praesent feugiat ultricies orci, sed tempus mi consectetur et. Donec et consectetur nulla, at efficitur nisi. Nam rhoncus ipsum ac orci finibus, et feugiat libero suscipit. Integer rutrum mauris erat, id rhoncus nulla tempor ac</p>
+          <h5 id="item01-1">Dolor Amet</h5>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla velit, maximus non rhoncus vitae, porttitor non dolor. Etiam rhoncus nisl vel odio tristique gravida. Ut in lacus et ante viverra rutrum. In vitae dolor ut turpis iaculis fermentum et malesuada elit. Fusce id convallis lectus. Nam elementum felis ut feugiat eleifend. In eget tristique mi. Duis interdum nunc bibendum eleifend aliquam. Fusce nec facilisis ligula. Quisque neque purus, egestas non eros ut, convallis pretium metus.</p>
+
+          <h4 id="item02">Ypsum ipsum</h4>
+          <p class="lead">Nulla leo lacus, laoreet nec nisl vel, eleifend eleifend massa. Aenean interdum erat eu lacus semper aliquam. Praesent feugiat ultricies orci, sed tempus mi consectetur et. Donec et consectetur nulla, at efficitur nisi. Nam rhoncus ipsum ac orci finibus, et feugiat libero suscipit. Integer rutrum mauris erat, id rhoncus nulla tempor ac</p>
+          <h5 id="item02-2">Viverra diam</h5>
+          <p class="lead">Sed pulvinar viverra diam ut fermentum. Suspendisse dictum odio ac leo fringilla consequat. Integer rhoncus facilisis libero sit amet maximus. Suspendisse potenti. Donec maximus egestas vulputate. Aliquam accumsan, est et venenatis laoreet, libero dui feugiat urna, et faucibus felis lectus et eros. Aenean quis quam at mauris fermentum varius.</p>
+
+          <h4 id="item03">ipsum ipsum</h4>
+          <p class="lead">Nulla leo lacus, laoreet nec nisl vel, eleifend eleifend massa. Aenean interdum erat eu lacus semper aliquam. Praesent feugiat ultricies orci, sed tempus mi consectetur et. Donec et consectetur nulla, at efficitur nisi. Nam rhoncus ipsum ac orci finibus, et feugiat libero suscipit. Integer rutrum mauris erat, id rhoncus nulla tempor ac</p>
+          <h5 id="item03-3">Lobortis faucibus</h5>
+          <p class="lead">Donec lobortis faucibus ligula, id dictum elit viverra eu. Aenean luctus interdum lorem, et venenatis ex convallis quis. Fusce tincidunt, urna eget dictum placerat, turpis dolor fringilla leo, id sollicitudin lectus ipsum vitae velit. Sed non sodales tellus. In id tristique magna. Maecenas consequat quam a metus gravida fringilla.</p>
+
+          <h4 id="item04">Psum Tipsum</h4>
+          <p class="lead">Nulla leo lacus, laoreet nec nisl vel, eleifend eleifend massa. Aenean interdum erat eu lacus semper aliquam. Praesent feugiat ultricies orci, sed tempus mi consectetur et. Donec et consectetur nulla, at efficitur nisi. Nam rhoncus ipsum ac orci finibus, et feugiat libero suscipit. Integer rutrum mauris erat, id rhoncus nulla tempor ac</p>
+          <h5 id="item04-4">Dblandit facilisis</h5>
+          <p class="lead">Vivamus blandit facilisis mauris a fringilla. Nam sit amet tortor sollicitudin, mattis enim dignissim, rutrum lacus. Cras laoreet a nulla sed faucibus.</p>
+
+          <h4 id="item05">Molin Toipsum</h4>
+          <p class="lead">Nulla leo lacus, laoreet nec nisl vel, eleifend eleifend massa. Aenean interdum erat eu lacus semper aliquam. Praesent feugiat ultricies orci, sed tempus mi consectetur et. Donec et consectetur nulla, at efficitur nisi. Nam rhoncus ipsum ac orci finibus, et feugiat libero suscipit. Integer rutrum mauris erat, id rhoncus nulla tempor ac</p>
+          <h5 id="item05-5">Praesent molestie</h5>
+          <p class="lead">Praesent molestie elit commodo, sagittis odio nec, consectetur dolor. Aenean faucibus ultrices tellus id elementum. Aliquam auctor elit eget sapien lobortis, condimentum tempor felis interdum. Nulla sem enim, euismod quis blandit sit amet, malesuada ac lorem. Curabitur id lacinia elit, a fringilla augue.</p>
+
         </div>
+
       </div>
     </div>
     <!-- Optional JavaScript -->
